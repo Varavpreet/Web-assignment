@@ -1,0 +1,61 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    padding-bottom: 60px; 
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 20px;
+    color: #15e576;
+}
+
+#staff-list 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.employee
+ {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button 
+{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #15e576;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #107c42;
+}
+
+footer 
+{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+}

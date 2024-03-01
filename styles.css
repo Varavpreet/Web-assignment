@@ -1,0 +1,83 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting a base font size and family */
+body 
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Setting text color to black */
+    padding-bottom: 60px; /* Adding padding to accommodate footer */
+}
+
+#heading
+{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Styling header */
+header
+ {
+    display: flex;
+    justify-content: space-around;
+    background-color:aqua;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling buttons */
+a
+{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Styling image */
+img 
+{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: 30rem;
+}
+
+/* Styling paragraphs */
+p 
+{
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0 20px;
+    background-color: pink;
+}
+
+#name
+{
+    display: none;
+    padding-left: 40%;
+    background-color: #333;
+    color: aliceblue;
+}
+
+/* Styling footer */
+footer 
+{
+    background-color: aqua;
+    color: #040404;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
